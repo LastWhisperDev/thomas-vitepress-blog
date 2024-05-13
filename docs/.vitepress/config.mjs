@@ -3,7 +3,6 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   lang: 'zh-CN',
-  base: '/repo/',
   title: "Thomas的笔记本",
   lastUpdated: true,
   description: "用来记录工作中遇到的一些知识点或填坑小技巧",
