@@ -103,3 +103,21 @@ downloadFile() {
 }
 ```
 :::
+
+### Vue2 provide/inject 响应式
+默认情况下，如果父组件直接注入数据不做任何处理，当改变父组件的数据时，子组件的数据不会同时发生改变。
+
+::: details 点我查看代码
+::: code-group
+```js [函数式]
+// 父组件
+provide() {
+  return {
+    parentName: () => this.name
+  }
+}
+
+// 子组件
+inject: ['parentName']
+```
+:::
