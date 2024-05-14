@@ -7,6 +7,17 @@ export default defineConfig({
   title: "Thomas的笔记本",
   lastUpdated: true,
   description: "用来记录工作中遇到的一些知识点或填坑小技巧",
+  head: [
+    ['script', {}, `
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?21ef86ac7b5a0052c4036a28bd236e6c";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    `]
+  ],
   themeConfig: {
     outlineTitle: '目录',
     nav: [
