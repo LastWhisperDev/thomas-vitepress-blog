@@ -16,7 +16,8 @@ export default defineConfig({
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
       })();
-    `]
+    `],
+    ['meta', {name: 'google-site-verification', content: 'au0z1rGENKzXkxic5kUDx1T-ptwg4yUdS0k-rdz6-NI'}]
   ],
   themeConfig: {
     outlineTitle: '目录',
