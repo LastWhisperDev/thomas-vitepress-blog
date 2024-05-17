@@ -24,6 +24,9 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
     ],
+    search: {
+      provider: 'local'
+    },
 
     // sidebar: [
     //   {
@@ -38,5 +41,8 @@ export default defineConfig({
     socialLinks: [
       { icon: 'github', link: 'https://github.com/web-wangle/thomas-vitepress-blog' }
     ]
+  },
+  sitemap: {
+    hostname: 'https://web-wangle.github.io/thomas-vitepress-blog/'
   }
 })
