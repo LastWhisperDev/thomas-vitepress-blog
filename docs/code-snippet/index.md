@@ -128,39 +128,22 @@ css实现当文本内容过长时，中间显示省略号...，两端正常展�
 ::: details 点我查看代码
 ::: code-group
 ```html [Html]
-<ul class="con">
-    <li class="wrap">
-        <span class="txt">CSS 实现优惠券的技巧 - 2021-03-26</span>
-        <span class="title" title="CSS 实现优惠券的技巧 - 2021-03-26">CSS 实现优惠券的技巧 - 2021-03-26</span>
-    </li>
-    <li class="wrap">
-        <span class="txt">CSS 测试标题，这是一个稍微有点长的标题，超出一行以后才会有title提示，标题是 实现优惠券的技巧 - 2021-03-26</span>
-        <span class="title" title="CSS 测试标题，这是一个稍微有点长的标题，超出一行以后才会有title提示，标题是 实现优惠券的技巧 - 2021-03-26">CSS
-            测试标题，这是一个稍微有点长的标题，超出一行以后才会有title提示，标题是 实现优惠券的技巧 - 2021-03-26</span>
-    </li>
-    <li class="wrap">
-        <span class="txt">CSS 拖拽?</span>
-        <span class="title" title="CSS 拖拽?">CSS 拖拽?</span>
-    </li>
-    <li class="wrap">
-        <span class="txt">CSS 文本超出自动显示title</span>
-        <span class="title" title="CSS 文本超出自动显示title">CSS 文本超出自动显示title</span>
-    </li>
-</ul>
+<div class="con">
+  <div class="wrap">
+    <span class="txt">
+      CSS 测试标题，这是一个稍微有点长的标题，超出一行以后才会有title提示，标题是 实现优惠券的技巧 - 2021-03-26
+    </span>
+    <span class="title" title="CSS 测试标题，这是一个稍微有点长的标题，超出一行以后才会有title提示，标题是 实现优惠券的技巧 - 2021-03-26">
+      CSS测试标题，这是一个稍微有点长的标题，超出一行以后才会有title提示，标题是 实现优惠券的技巧 - 2021-03-26
+    </span>
+  </div>
+</div>
 ```
 
 ```css [Css]
 .con {
     font-size: 14px;
-    color: #666;
     width: 600px;
-    margin: 50px auto;
-    border-radius: 8px;
-    padding: 15px;
-    overflow: hidden;
-    resize: horizontal;
-    box-shadow: 20px 20px 60px #bebebe,
-        -20px -20px 60px #ffffff;
 }
 
 .wrap {
@@ -170,11 +153,6 @@ css实现当文本内容过长时，中间显示省略号...，两端正常展�
     padding: 0 10px;
     overflow: hidden;
     background: #fff;
-    margin: 5px 0;
-}
-
-.wrap:nth-child(odd) {
-    background: #f5f5f5;
 }
 
 .title {
@@ -202,3 +180,8 @@ css实现当文本内容过长时，中间显示省略号...，两端正常展�
 }
 ```
 :::
+<iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/web-wangle/embed/wvbKQMZ?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/web-wangle/pen/wvbKQMZ">
+  Untitled</a> by web-wangle (<a href="https://codepen.io/web-wangle">@web-wangle</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
