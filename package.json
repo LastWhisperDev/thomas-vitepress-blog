@@ -5,6 +5,7 @@
     "docs:preview": "vitepress preview docs"
   },
   "dependencies": {
+    "@docsearch/js": "^3.6.0",
     "vitepress": "^1.1.4"
   }
 }

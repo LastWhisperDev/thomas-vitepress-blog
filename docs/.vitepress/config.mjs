@@ -25,7 +25,12 @@ export default defineConfig({
       { text: '首页', link: '/' },
     ],
     search: {
-      provider: 'local'
+      provider: 'algolia',
+      options: {
+        appId: 'QFS2XRA919',
+        apiKey: '279a5b4fa24b17d4cffa26031e63fca4',
+        indexName: 'thomas-vitepress-blog-search'
+      }
     },
 
     // sidebar: [

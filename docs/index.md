@@ -14,7 +14,8 @@ hero:
   #     link: /api-examples
 
 features:
-  - title: 常用代码段合集
+  - icon: 📔
+    title: 常用代码段合集
     details: 一些工作中经常用到的代码段合集
     link: /code-snippet/index
   - title: 敬请期待
