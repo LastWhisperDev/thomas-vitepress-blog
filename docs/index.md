@@ -18,8 +18,10 @@ features:
     title: 常用代码段合集
     details: 一些工作中经常用到的代码段合集
     link: /code-snippet/index
-  - title: 敬请期待
-    details: 
+  - icon: 🆘
+    title: 错题本合集
+    details: 一些工作中遇到见到的有意思的坑
+    link: /error-notepad/index
   - title: 敬请期待
     details: 
 ---
