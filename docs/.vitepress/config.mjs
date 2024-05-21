@@ -27,9 +27,9 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: 'QFS2XRA919',
-        apiKey: '279a5b4fa24b17d4cffa26031e63fca4',
-        indexName: 'thomas-vitepress-blog-search'
+        appId: 'CPV0H4UKRK',
+        apiKey: 'f3834e275248d70e18a41d96ec571ca1',
+        indexName: 'web-wangleio'
       }
     },
 
