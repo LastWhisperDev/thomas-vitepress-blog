@@ -22,7 +22,8 @@ export default defineConfig({
   themeConfig: {
     outlineTitle: '目录',
     nav: [
-      { text: '首页', link: '/' },
+      { text: '代码段', link: '/code-snippet/index' },
+      { text: '错题本', link: '/error-notepad/index' },
     ],
     search: {
       provider: 'algolia',
