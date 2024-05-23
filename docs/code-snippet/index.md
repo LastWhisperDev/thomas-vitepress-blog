@@ -142,46 +142,77 @@ css实现当文本内容过长时，中间显示省略号...，两端正常展�
 
 ```css [Css]
 .con {
-    font-size: 14px;
-    width: 600px;
+  font-size: 14px;
+  width: 600px;
 }
 
 .wrap {
-    position: relative;
-    line-height: 2;
-    height: 2em;
-    padding: 0 10px;
-    overflow: hidden;
-    background: #fff;
+  position: relative;
+  line-height: 2;
+  height: 2em;
+  padding: 0 10px;
+  overflow: hidden;
+  background: #fff;
 }
 
 .title {
-    display: block;
-    position: relative;
-    background: inherit;
-    text-align: justify;
-    height: 2em;
-    overflow: hidden;
-    top: -4em;
+  display: block;
+  position: relative;
+  background: inherit;
+  text-align: justify;
+  height: 2em;
+  overflow: hidden;
+  top: -4em;
 }
 
 .txt {
-    display: block;
-    max-height: 4em;
+  display: block;
+  max-height: 4em;
 }
 .title::before{
-    content: attr(title);
-    width: 50%;
-    float: right;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    direction: rtl;
+  content: attr(title);
+  width: 50%;
+  float: right;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  direction: rtl;
 }
 ```
 :::
 <iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/web-wangle/embed/wvbKQMZ?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href="https://codepen.io/web-wangle/pen/wvbKQMZ">
+  Untitled</a> by web-wangle (<a href="https://codepen.io/web-wangle">@web-wangle</a>)
+  on <a href="https://codepen.io">CodePen</a>.
+</iframe>
+
+### div实现内凹效果
+使用css中的background实现div内凹效果，常用于一些优惠券场景
+
+::: details 点我查看代码
+::: code-group
+```html [Html]
+<div class="thomas">
+  <div class="cover"></div>
+</div>
+```
+
+```css [Css]
+.thomas {
+  width: 200px;
+  height: 200px;
+  background: blue;
+}
+.cover {
+  width: 100px;
+  height: 100px;
+  background: radial-gradient(circle at 40px 40px,transparent 0, transparent 20px,red 21px, red 40px);
+  background-position: -40px -40px;
+}
+```
+:::
+<iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/web-wangle/embed/LYoZQNv?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
+  See the Pen <a href="https://codepen.io/web-wangle/pen/LYoZQNv">
   Untitled</a> by web-wangle (<a href="https://codepen.io/web-wangle">@web-wangle</a>)
   on <a href="https://codepen.io">CodePen</a>.
 </iframe>

@@ -22,7 +22,9 @@ features:
     title: 错题本合集
     details: 一些工作中遇到见到的有意思的坑
     link: /error-notepad/index
-  - title: 敬请期待
-    details: 
+  - icon: 🌐
+    title: 好用网站合集
+    details: 一些方便有趣的网站合集
+    link: /popular-website/index
 ---
 

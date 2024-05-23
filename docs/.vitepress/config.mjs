@@ -24,6 +24,7 @@ export default defineConfig({
     nav: [
       { text: '代码段', link: '/code-snippet/index' },
       { text: '错题本', link: '/error-notepad/index' },
+      { text: '工具集', link: '/popular-website/index' }
     ],
     search: {
       provider: 'algolia',
@@ -33,8 +34,21 @@ export default defineConfig({
         indexName: 'web-wangleio'
       }
     },
-
-    // sidebar: [
+    lastUpdated: {
+      text: '最后更新时间',
+      formatOptions: {
+        dateStyle: 'medium',
+        timeStyle: 'medium'
+      }
+    },
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com/web-wangle/thomas-vitepress-blog' }
+    ]
+  },
+  sitemap: {
+    hostname: 'https://web-wangle.github.io/thomas-vitepress-blog/'
+  }
+   // sidebar: [
     //   {
     //     text: 'Examples',
     //     items: [
@@ -43,12 +57,4 @@ export default defineConfig({
     //     ]
     //   }
     // ],
-
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/web-wangle/thomas-vitepress-blog' }
-    ]
-  },
-  sitemap: {
-    hostname: 'https://web-wangle.github.io/thomas-vitepress-blog/'
-  }
 })
