@@ -209,6 +209,18 @@ css实现当文本内容过长时，中间显示省略号...，两端正常展�
   background: radial-gradient(circle at 40px 40px,transparent 0, transparent 20px,red 21px, red 40px);
   background-position: -40px -40px;
 }
+
+/*
+radial-gradient：表示创建一个径向渐变效果。
+circle：表示渐变的形状为圆形。
+at 40px 40px：表示渐变的中心点在距离左上角40像素的位置。
+transparent 0：表示从中心点开始，颜色透明度为0。
+transparent 20px：表示从中心点开始，颜色透明度在距离中心点20像素的位置为0。
+red 21px：表示从中心点开始，颜色为红色，距离中心点21像素的位置。
+red 40px：表示从中心点开始，颜色为红色，距离中心点40像素的位置。
+background-position：表示背景图像的起始位置。
+-40px -40px：表示背景图像的起始位置在距离左上角40像素的位置，即向左上方偏移40像素。
+*/
 ```
 :::
 <iframe height="300" style="width: 100%;" scrolling="no" title="Untitled" src="https://codepen.io/web-wangle/embed/LYoZQNv?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
