@@ -17,11 +17,15 @@ features:
   - icon: 📔
     title: 常用代码段合集
     details: 一些工作中经常用到的代码段合集
-    link: /code-snippet/index
+    link: /code-snippet/down-load-snippet
   - icon: 🆘
-    title: 错题本合集
+    title: 踩坑指南合集
     details: 一些工作中遇到见到的有意思的坑
-    link: /error-notepad/index
+    link: /error-notepad/destructuring-assignment-err
+  - icon: 🛫
+    title: 学习与扩展合集
+    details: 前端技术学习与扩展
+    link: /learn-extend/index
   - icon: 🌐
     title: 好用网站合集
     details: 一些方便有趣的网站合集

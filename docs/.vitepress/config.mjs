@@ -22,10 +22,30 @@ export default defineConfig({
   themeConfig: {
     outlineTitle: '目录',
     nav: [
-      { text: '代码段', link: '/code-snippet/index' },
-      { text: '错题本', link: '/error-notepad/index' },
-      { text: '工具集', link: '/popular-website/index' }
+      { text: '代码段', link: '/code-snippet/down-load-snippet' },
+      { text: '错题本', link: '/error-notepad/destructuring-assignment-error' },
+      { text: '扩展', link: '/learn-extend/index' }
     ],
+    sidebar: {
+      '/code-snippet/': [
+        {
+          text: '代码段',
+          items: [
+            { text: '下载文件', link: '/code-snippet/down-load-snippet' },
+            { text: '滚动溢出', link: '/code-snippet/overscroll-behavior-snippet' },
+            { text: 'div内凹', link: '/code-snippet/div-dig-css' },
+          ]
+        }
+      ],
+      '/error-notepad/': [
+        {
+          text: '代码段',
+          items: [
+            { text: '解构赋值默认值问题', link: '/error-notepad/destructuring-assignment-error' },
+          ]
+        }
+      ]
+    },
     search: {
       provider: 'algolia',
       options: {
@@ -48,13 +68,4 @@ export default defineConfig({
   sitemap: {
     hostname: 'https://web-wangle.github.io/thomas-vitepress-blog/'
   }
-   // sidebar: [
-    //   {
-    //     text: 'Examples',
-    //     items: [
-    //       { text: 'Markdown Examples', link: '/markdown-examples' },
-    //       { text: 'Runtime API Examples', link: '/api-examples' }
-    //     ]
-    //   }
-    // ],
 })
