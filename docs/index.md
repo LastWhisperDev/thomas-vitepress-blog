@@ -21,7 +21,7 @@ features:
   - icon: 🆘
     title: 踩坑指南合集
     details: 一些工作中遇到见到的有意思的坑
-    link: /error-notepad/destructuring-assignment-err
+    link: /error-notepad/destructuring-assignment-error
   - icon: 🛫
     title: 学习与扩展合集
     details: 前端技术学习与扩展
