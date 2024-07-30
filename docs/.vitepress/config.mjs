@@ -42,6 +42,7 @@ export default defineConfig({
           text: '代码段',
           items: [
             { text: '解构赋值默认值问题', link: '/error-notepad/destructuring-assignment-error' },
+            { text: 'Vue2 provide/inject 响应式问题', link: '/error-notepad/vue2-provide-inject-error' },
           ]
         }
       ]
