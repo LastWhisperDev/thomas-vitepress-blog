@@ -68,8 +68,7 @@ export default defineConfig({
     lastUpdated: {
       text: '最后更新时间',
       formatOptions: {
-        dateStyle: 'medium',
-        timeStyle: 'medium'
+        dateStyle: 'medium'
       }
     },
     socialLinks: [
