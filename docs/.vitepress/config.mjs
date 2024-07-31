@@ -60,9 +60,9 @@ export default defineConfig({
     search: {
       provider: 'algolia',
       options: {
-        appId: 'CPV0H4UKRK',
-        apiKey: 'f3834e275248d70e18a41d96ec571ca1',
-        indexName: 'web-wangleio'
+        appId: 'U6UIMBQT6X',
+        apiKey: '54076f167695d6f3954f54a5c6c125f0',
+        indexName: 'vite-press-blog'
       }
     },
     lastUpdated: {
