@@ -39,10 +39,20 @@ export default defineConfig({
       ],
       '/error-notepad/': [
         {
-          text: '代码段',
+          text: '问题',
           items: [
             { text: '解构赋值默认值问题', link: '/error-notepad/destructuring-assignment-error' },
             { text: 'Vue2 provide/inject 响应式问题', link: '/error-notepad/vue2-provide-inject-error' },
+            { text: 'flex布局文本溢出省略号问题', link: '/error-notepad/flex-ellipsis-failure-error' },
+          ]
+        }
+      ],
+      '/learn-extend/': [
+        {
+          text: '更多文档',
+          items: [
+            { text: '快速开发一个chrome扩展程序', link: '/learn-extend/chrome-extensions-learn' },
+            { text: '快速开发一个cli脚手架', link: '/learn-extend/create-cli-learn' },
           ]
         }
       ]

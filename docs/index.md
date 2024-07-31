@@ -25,7 +25,7 @@ features:
   - icon: 🛫
     title: 学习与扩展合集
     details: 前端技术学习与扩展
-    link: /learn-extend/index
+    link: /learn-extend/chrome-extensions-learn
   - icon: 🌐
     title: 好用网站合集
     details: 一些方便有趣的网站合集
