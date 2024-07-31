@@ -58,12 +58,13 @@ export default defineConfig({
       ]
     },
     search: {
-      provider: 'algolia',
-      options: {
-        appId: 'U6UIMBQT6X',
-        apiKey: '54076f167695d6f3954f54a5c6c125f0',
-        indexName: 'vite-press-blog'
-      }
+      provider: 'local'
+      // provider: 'algolia',
+      // options: {
+      //   appId: 'U6UIMBQT6X',
+      //   apiKey: '54076f167695d6f3954f54a5c6c125f0',
+      //   indexName: 'vite-press-blog'
+      // }
     },
     lastUpdated: {
       text: '最后更新时间',
