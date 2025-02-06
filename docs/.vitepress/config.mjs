@@ -24,7 +24,7 @@ export default defineConfig({
     nav: [
       { text: '代码段', link: '/code-snippet/down-load-snippet' },
       { text: '错题本', link: '/error-notepad/destructuring-assignment-error' },
-      { text: '扩展', link: '/learn-extend/index' }
+      { text: '扩展', link: '/learn-extend/chrome-extensions-learn' }
     ],
     sidebar: {
       '/code-snippet/': [
