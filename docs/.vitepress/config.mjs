@@ -12,7 +12,7 @@ export default defineConfig({
       var _hmt = _hmt || [];
       (function() {
         var hm = document.createElement("script");
-        hm.src = "https://hm.baidu.com/hm.js?21ef86ac7b5a0052c4036a28bd236e6c";
+        hm.src = "https://hm.baidu.com/hm.js?2e57fdace18dc3339f00ebe56b156956";
         var s = document.getElementsByTagName("script")[0]; 
         s.parentNode.insertBefore(hm, s);
       })();
@@ -77,6 +77,7 @@ export default defineConfig({
     ]
   },
   sitemap: {
-    hostname: 'https://web-wangle.github.io/thomas-vitepress-blog/'
+    hostname: 'https://lastwhisperdev.github.io/thomas-vitepress-blog/'
   }
 })
+`~`
