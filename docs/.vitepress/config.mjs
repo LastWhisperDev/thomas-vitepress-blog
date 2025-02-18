@@ -73,7 +73,7 @@ export default defineConfig({
       }
     },
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/web-wangle/thomas-vitepress-blog' }
+      { icon: 'github', link: 'https://github.com/LastWhisperDev/thomas-vitepress-blog' }
     ]
   },
   sitemap: {
