@@ -6,6 +6,6 @@
   },
   "dependencies": {
     "@docsearch/js": "^3.6.0",
-    "vitepress": "^1.1.4"
+    "vitepress": "^1.6.3"
   }
 }
