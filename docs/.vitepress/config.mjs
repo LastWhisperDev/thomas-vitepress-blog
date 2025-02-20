@@ -80,4 +80,3 @@ export default defineConfig({
     hostname: 'https://lastwhisperdev.github.io/thomas-vitepress-blog/'
   }
 })
-`~`
